@@ -20,3 +20,9 @@ npm install
 ~~~~
 npm run dev
 ~~~~
+
+* Help 🛟
+>press *h* to show help
+
+* Shortcuts
+>press *o* to open in browser
