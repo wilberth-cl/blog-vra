@@ -1,9 +1,8 @@
 # blog-vra &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/wilberth-cl/blog-vra/blob/main/LICENSE) [![npm version](https://img.shields.io/npm/v/react.svg?style=flat)](https://www.npmjs.com/package/react)
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/wilberth-cl/blog-vra">
+[![Go gh-page](https://img.shields.io/badge/Go_to_Github_Page-blog--vra.github.io-blue)](https://wilberth-cl.github.io/blog-vra/)
 
-[![Go gh-page](https://img.shields.io/badge/Github_Page-blog--vra.github.io-blue)](https://wilberth-cl.github.io/blog-vra/)
-
-This blog is a simple example of a SPA, developed with [vite --template react](https://github.com/vitejs/vite)
+This blog is a simple example of a SPA, developed with [Vite --template react](https://github.com/vitejs/vite)
 
 ## First 🙇🏻‍♂️
 * Already set up your development environment? Learn 🤸🏻‍♂️ [Vite](https://vitejs.dev/guide/)
@@ -21,8 +20,8 @@ npm install
 npm run dev
 ~~~~
 
-* Help 🛟
->press *h* to show help
+* Help (on console)
+>press **_h_** to show help
 
-* Shortcuts
->press *o* to open in browser
+* Shortcuts (on console)
+>press **_o_** to open in browser
