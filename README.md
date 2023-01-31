@@ -6,7 +6,7 @@
 This blog is a simple example of a SPA, developed with [Vite --template react](https://github.com/vitejs/vite)
 
 ## First 🙇🏻‍♂️
-* Already set up your development environment? Learn to do it 🤸🏻‍♂️ [Vite](https://vitejs.dev/guide/)
+* Already set up your development environment? [Learn to do it in Vite](https://vitejs.dev/guide/) 🤸🏻‍♂️
 
 ## Begins 🏃🏼‍♂️
 * Clone it on your pc 🙂
