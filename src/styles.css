@@ -1,10 +1,9 @@
-
 .nav {
     display: flex;
     justify-content: space-between;
     align-items: stretch;
     gap: 2rem;
-    padding: 1rem;
+    padding: 0 1rem;
 }
 
 .site-title{
@@ -27,4 +26,3 @@
     align-items: center;
     padding: .25rem;
 }
-
