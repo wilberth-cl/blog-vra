@@ -7,7 +7,7 @@ function Welcome() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="App">
+    <div className="App pt-10">
       <div className="flex flex-row justify-center">
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -28,9 +28,6 @@ function Welcome() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-      <h1 className="bg-emerald-800 text-emerald-200 text-3xl font-bold underline">
-        Hello world!
-      </h1>
     </div>
   )
 }
