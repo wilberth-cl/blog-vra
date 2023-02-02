@@ -1,12 +1,14 @@
 import { useState } from 'react'
 import viteLogo from './../assets/vite.svg'
 import reactLogo from './../assets/react.svg'
+import Layout from '../component/layout/Layout';
 import './../App.css'
 
 function Welcome() {
   const [count, setCount] = useState(0)
 
   return (
+    <Layout>
     <div className="App pt-10">
       <div className="flex flex-row justify-center">
         <a href="https://vitejs.dev" target="_blank">
@@ -29,6 +31,7 @@ function Welcome() {
         Click on the Vite and React logos to learn more
       </p>
     </div>
+    </Layout>
   )
 }
 

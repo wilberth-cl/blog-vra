@@ -1,6 +1,10 @@
+import Layout from '../component/layout/Layout'
+
 function Algo() {
     return(
-        <h1>Algo</h1>
+        <Layout>
+            <h1>Algo</h1>
+        </Layout>
     );
 }
 
