@@ -4,8 +4,8 @@ class Footer extends React.Component{
 
         return(
             
-            <footer class="footer absolute bottom-1 rounded-lg">
-                <span class="text-sm sm:text-center"><a href="https://github.com/wilberth-cl" target="_blank" class="hover:underline">wilberth-cl</a> bower by <a href="https://github.com/" target="_blank" class="hover:underline">GitHub, Inc</a>.
+            <footer className="footer absolute bottom-1 rounded-lg">
+                <span className="text-sm sm:text-center"><a href="https://github.com/wilberth-cl" target="_blank" className="hover:underline">wilberth-cl</a> power by <a href="https://github.com/" target="_blank" className="hover:underline">GitHub, Inc</a>.
                 </span>
             </footer>
 

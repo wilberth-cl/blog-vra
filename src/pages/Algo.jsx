@@ -1,9 +1,9 @@
 import Layout from '../component/layout/Layout'
 
-function Algo() {
+function Algo(props) {
     return(
         <Layout>
-            <h1>Algo</h1>
+            <h1>{props.pageName}</h1>
         </Layout>
     );
 }

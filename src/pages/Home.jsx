@@ -1,9 +1,9 @@
 import Layout from '../component/layout/Layout';
 
-function Home(){
+function Home(props){
     return(
         <Layout>
-            <h1>Home</h1>
+            <h1>{props.pageName}</h1>
         </Layout>
     );
 }

@@ -11,7 +11,7 @@ const MyRoutes = () => (
         
           <Route 
             path='/'
-            element={<Home />}
+            element={<Home pageName="Home" />}
           />
 
           <Route 
@@ -21,17 +21,17 @@ const MyRoutes = () => (
 
           <Route 
             path='/otro'
-            element={<Otro />}
+            element={<Otro pageName="Otro" />}
             />
 
           <Route 
             path='/algo'
-            element={<Algo />}
+            element={<Algo pageName="Algo" />}
             />
 
            <Route
             path='*'
-            element={<Page404 />}
+            element={<Page404 msgPage="Not found | 404"/>}
             />
 
         </Routes>

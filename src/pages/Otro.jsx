@@ -1,9 +1,9 @@
 import Layout from '../component/layout/Layout'
 
-function Otro(){
+function Otro(props){
     return (
         <Layout>
-            <h1>Otro</h1>
+            <h1>{props.pageName}</h1>
         </Layout>
     );
 }

@@ -1,9 +1,9 @@
 import Layout from '../component/layout/Layout'
 
-function Page404(){
+function Page404(props){
     retunr (
         <Layout>
-            <h1>Not found | 404</h1>
+            <h1>{props.msgPage}</h1>
         </Layout>
     );
 }
