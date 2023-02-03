@@ -4,6 +4,7 @@
     align-items: stretch;
     gap: 2rem;
     padding: 0 1rem;
+    border-bottom:1px solid rgb(74, 246, 38);
 }
 
 .site-title{
@@ -25,4 +26,9 @@
     display: flex;
     align-items: center;
     padding: .25rem;
+}
+
+.footer {
+    margin-left: 25%;
+    width: 46%;
 }

@@ -7,7 +7,7 @@ class Layout extends React.Component{
 
         return(
 
-            <div className="mx-auto h-screen text-center bg-red-900">
+            <div className="mx-auto h-screen text-center bg-slate-900 border-console">
                 <Header />
                     <main>{this.props.children}</main>
                 <Footer />

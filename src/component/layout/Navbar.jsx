@@ -9,7 +9,7 @@ function Navbar(){
 	};
 
 	return (
-			<nav className="nav border-console bg-slate-900">
+			<nav className="nav bg-slate-900">
 				<NavLink 
 				to="/" 
 				className="site-title">

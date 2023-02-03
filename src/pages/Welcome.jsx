@@ -18,9 +18,9 @@ function Welcome() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
+      <h1 className='text-3xl'>Vite + React</h1>
+      <div className="mt-6">
+        <button className="rounded-md bg-slate-800 p-2 hover:border-2 border-white" onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
         <p>
