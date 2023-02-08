@@ -5,7 +5,7 @@ function Navbar(){
 	let activeStyle = {
 		/* textDecoration: 'underline', */
 		/* backgroundColor: 'rgb(49 46 129)', */
-		borderBottom: '3px solid rgb(29 78 216)'
+		borderBottom: '3px solid #16a34a'
 	};
 
 	return (
@@ -13,13 +13,21 @@ function Navbar(){
 				<NavLink 
 				to="/" 
 				className="site-title">
-					Site Name
+					API's
 				</NavLink>
 				<ul>
 					<li>
 						<NavLink 
+						to="/posts" 
+						className="hover:bg-green-700 hover:text-lime-300"
+						style={ ({ isActive }) => isActive ? activeStyle : undefined }>
+							Posts
+						</NavLink>
+					</li>
+					<li>
+						<NavLink 
 						to="/algo" 
-						className="hover:bg-indigo-700 hover:text-white"
+						className="hover:bg-green-700 hover:text-lime-300"
 						style={ ({ isActive }) => isActive ? activeStyle : undefined }>
 							Algo
 						</NavLink>
@@ -27,7 +35,7 @@ function Navbar(){
 					<li>
 						<NavLink 
 						to="/otro" 
-						className="hover:bg-indigo-700 hover:text-white"
+						className="hover:bg-green-700 hover:text-lime-300"
 						style={ ({ isActive }) => isActive ? activeStyle : undefined }>
 							Otro
 						</NavLink>

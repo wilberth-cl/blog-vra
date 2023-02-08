@@ -5,6 +5,7 @@ import Home from '../pages/Home'
 import Algo from '../pages/Algo'
 import Otro from '../pages/Otro'
 import Page404 from '../pages/Page404'
+import Posts from '../pages/Posts'
 
 const MyRoutes = () => (
        <Routes>
@@ -27,6 +28,11 @@ const MyRoutes = () => (
           <Route 
             path='/algo'
             element={<Algo pageName="Algo" />}
+            />
+
+          <Route 
+            path='/posts'
+            element={<Posts pageName="Posts" />}
             />
 
            <Route

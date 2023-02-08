@@ -1,9 +1,10 @@
 import Layout from '../component/layout/Layout'
+import { SectionTitlePage } from '../component/layout/SectionTitlePage';
 
 function Otro(props){
     return (
         <Layout>
-            <h1>{props.pageName}</h1>
+            <SectionTitlePage text={props.pageName} />
         </Layout>
     );
 }

@@ -30,6 +30,18 @@
   border:1px solid rgb(74, 246, 38);
 }
 
+.border-console-bottom
+{
+  border-bottom:1px solid rgb(74, 246, 38);
+}
+
+.border-console-cub
+{
+  border-bottom:1px solid rgb(74, 246, 38);
+  border-left:1px solid rgb(74, 246, 38);
+  border-right:1px solid rgb(74, 246, 38);
+}
+
 .code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

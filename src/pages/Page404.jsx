@@ -1,9 +1,10 @@
 import Layout from '../component/layout/Layout'
+import { SectionTitlePage } from '../component/layout/SectionTitlePage';
 
 function Page404(props){
     retunr (
         <Layout>
-            <h1>{props.msgPage}</h1>
+            <SectionTitlePage text={props.msgPage} />
         </Layout>
     );
 }
