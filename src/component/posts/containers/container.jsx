@@ -11,6 +11,7 @@ function Container({ post }) {
         <p className="border-b-1 border-console-cub uppercase ">{post.title}</p>
         <p className="pt-3">{post.body}</p>
       </div>
+      <button onClick={() => alert(post.userId)}>Button</button>
     </div>
   );
 }
